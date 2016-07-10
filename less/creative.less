@@ -171,7 +171,8 @@ header {
     .header-content {
         position: relative;
         text-align: center;
-        padding: 100px 15px 100px;
+        padding: 100px 15px 100px 120px;
+        word-break: break-word;
         width: 100%;
         .header-content-inner {
             h1 {
@@ -179,20 +180,14 @@ header {
                 text-transform: uppercase;
                 margin-top: 0;
                 margin-bottom: 0;
-                margin-left: 250px;
             }
             hr {
                 margin: 30px auto;
             }
             p {
-                font-weight: 300;
+                font-weight: 400;
                 color: fade(white, 90%);
                 font-size: 16px;
-                padding-left: 250px;
-
-            }
-            .btn {
-                margin-left: 250px;
             }
         }
     }
@@ -206,17 +201,19 @@ header {
             transform: translateY(-50%);
             padding: 0 50px;
             .header-content-inner {
-                max-width: 1000px;
+                max-width: 500px;
                 margin-left: auto;
                 margin-right: auto;
                 h1 {
-                    font-size: 50px;
+                    font-size: 45px;
                 }
                 p {
                     font-size: 18px;
-                    max-width: 80%;
+                    max-width: 70%;
+                    font-weight: 400;
                     margin-left: auto;
                     margin-right: auto;
+                    padding-top: 20px;
                 }
             }
         }

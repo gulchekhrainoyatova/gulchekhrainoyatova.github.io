@@ -162,7 +162,8 @@ header {
 header .header-content {
   position: relative;
   text-align: center;
-  padding: 100px 15px 100px;
+  padding: 100px 15px 100px 120px;
+  word-break: break-word;
   width: 100%;
 }
 header .header-content .header-content-inner h1 {
@@ -170,19 +171,14 @@ header .header-content .header-content-inner h1 {
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 250px;
 }
 header .header-content .header-content-inner hr {
   margin: 30px auto;
 }
 header .header-content .header-content-inner p {
-  font-weight: 300;
+  font-weight: 400;
   color: rgba(255, 255, 255, 0.9);
   font-size: 16px;
-  padding-left: 250px;
-}
-header .header-content .header-content-inner .btn {
-  margin-left: 250px;
 }
 @media (min-width: 768px) {
   header {
@@ -197,18 +193,20 @@ header .header-content .header-content-inner .btn {
     padding: 0 50px;
   }
   header .header-content .header-content-inner {
-    max-width: 1000px;
+    max-width: 500px;
     margin-left: auto;
     margin-right: auto;
   }
   header .header-content .header-content-inner h1 {
-    font-size: 50px;
+    font-size: 45px;
   }
   header .header-content .header-content-inner p {
     font-size: 18px;
-    max-width: 80%;
+    max-width: 70%;
+    font-weight: 400;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 20px;
   }
 }
 .section-heading {
